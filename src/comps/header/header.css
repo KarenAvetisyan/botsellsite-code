@@ -1,0 +1,28 @@
+.header{
+    height: 103px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header .container{
+    max-width: 1800px;
+}
+.header .logo{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+@media (max-width: 767px) {
+    .header {
+        height: 80px;
+    }
+    .header .logo{
+        font-size: 36px;
+    }
+}
